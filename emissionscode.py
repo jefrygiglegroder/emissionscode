@@ -1,5 +1,3 @@
-# emissions_calc_galway_messy.py
-
 class DemolitionEmissionsCalculator:
     def __init__(self):
         self.emission_factor_diesel = 2.68
@@ -93,3 +91,4 @@ if __name__=="__main__":
     print("- Cars:",project_total["car_emissions_kg"],"kg CO2")
     print("- Tools:",project_total["tool_emissions_kg"],"kg CO2")
     print("- TOTAL PROJECT:",project_total["total_emissions_kg"],"kg CO2")
+
